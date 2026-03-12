@@ -8,7 +8,7 @@ import { useCandidatesFiltering } from "../hooks/useCandidatesFiltering";
 import { useQuery } from "@tanstack/react-query";
 
 // components
-import { FiltersPanel } from "../components/filters/filterPannel";
+import { FiltersPanel } from "../components/filters/FilterPannel";
 import CandidatesTable from "../components/CandidatesTable";
 import { fetchCandidates } from "../api/fetchCandidate";
 
